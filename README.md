@@ -14,8 +14,6 @@ try {
 } catch (Exception $e) {
     // Something goes wrong
 }
-
-
 ```
 
 Contact me: example@example.com
