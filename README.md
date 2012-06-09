@@ -9,9 +9,13 @@ use Warcraft3\Replay;
 
 try {
     $replay = new Wacraft3\Replay('LastReplay.w3g');
+
+    $playerList = $replay->getPlayers();
 } catch (Exception $e) {
     // Something goes wrong
 }
+
+
 ```
 
 Contact me: example@example.com
